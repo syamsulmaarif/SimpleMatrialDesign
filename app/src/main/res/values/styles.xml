@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/biruTua</item>
+        <item name="colorPrimary">@color/biruMuda</item>
+        <item name="colorAccent">@color/warnaAksen</item>
+        <item name="android:textColor">@color/teksUtama</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="CustomTheme" parent="MaterialDrawerTheme">
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">@color/material_drawer_primary</item>
+        <item name="colorPrimaryDark">@color/material_drawer_primary_dark</item>
+        <item name="colorAccent">@color/material_drawer_accent</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/material_drawer_background</item>
+        <item name="material_drawer_primary_text">@color/material_drawer_primary_text</item>
+        <item name="material_drawer_primary_icon">@color/material_drawer_primary_icon</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_secondary_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <item name="material_drawer_selected">@color/material_drawer_selected</item>
+        <item name="material_drawer_selected_text">@color/material_drawer_selected_text</item>
+        <item name="material_drawer_header_selection_text">@color/material_drawer_header_selection_text</item>
+    </style>
+
+    <color name="biruTua">#1976D2</color>
+    <color name="biruMuda">#2196F3</color>
+    <color name="teksUtama">#000</color>
+    <color name="warnaAksen">#FFEB3B</color>
+</resources>
